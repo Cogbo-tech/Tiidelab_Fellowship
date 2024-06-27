@@ -7,8 +7,19 @@
     <title>Barber Shop</title>
   </head>
   <body>
+    <!-- navigation -->
+    <nav>
+      <ul>
+        <a href="#home">Home</a>
+        <a href="#hairstyles">Hairstyles</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#media">Media</a>
+        <a href="#aboutus">About us</a>
+        <a href="#contactus">Contact us</a>
+      </ul>
+    </nav>
     <!-- hero section -->
-    <section>
+    <section id="home">
       <h1>Welcome to Barber Shop</h1>
       <img src="./logo.png" width="300px" height="280px" />
       <p>
@@ -19,7 +30,7 @@
     </section>
 
     <!-- hairstyles -->
-    <section>
+    <section id="hairstyles">
       <h2>Hairstyles you need to try in 2024</h2>
       <ul>
         <li>Short Curly hairstyle & Low Drop Fade.</li>
@@ -33,7 +44,8 @@
 
     <!-- pricing -->
 
-    <section>
+    <section id="pricing">
+      <h2>Pricing</h2>
       <table border="1px">
         <thead>
           <tr>
@@ -67,7 +79,7 @@
     </section>
 
     <!-- media -->
-    <section>
+    <section id="media">
       <audio controls>
         <source src="./from_now_on.mp3" />
       </audio>
@@ -76,18 +88,20 @@
         <source src="./sing.mp4" />
       </video>
     </section>
+
     <!-- about us -->
-    <section>
+    <section id="aboutus">
       <h2>
         More than just a haircut, we pride ourselves in giving you a lasting
         experience through each haircut.
       </h2>
     </section>
+
     <!-- contact us -->
-    <section>
+    <section id="contactus">
       <form>
-        <label>Name:</label> <br />
-        <input /><br />
+        <label for="name">Name:</label> <br />
+        <input title="name"/><br />
         <label>Address:</label> <br />
         <input /><br />
         <label>Other details</label><br />
