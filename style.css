@@ -35,7 +35,9 @@ nav a:hover {
   font-size: 2.5em;
 }
 #home img {
-  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
+  /* height: 350px; */
   /* padding: unset; */
 }
 /* sub-hero section */
@@ -159,6 +161,7 @@ td {
 }
 
 #contact form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 15px;
