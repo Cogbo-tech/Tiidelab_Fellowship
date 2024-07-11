@@ -42,6 +42,7 @@ nav a:hover {
 }
 /* sub-hero section */
 .sub-hero {
+  width: 100%
   display: flex;
   flex-direction: column;
   background-color: orange;
@@ -58,6 +59,7 @@ nav a:hover {
 }
 .sub-hero img {
   border-radius: 10px;
+  margin-top: 20px;
 }
 /* hairstyles section */
 #hairstyles {
@@ -71,7 +73,7 @@ nav a:hover {
 }
 #hairstyles ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -90,6 +92,7 @@ nav a:hover {
   text-align: center;
 }
 #pricing table {
+  width: 100%;
   border-collapse: collapse;
 }
 #pricing table th,
@@ -161,7 +164,7 @@ td {
 }
 
 #contact form {
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -183,7 +186,7 @@ td {
   cursor: pointer;
   padding: 10px 12px;
   border: none;
-  width: 50%;
+  width: 100%;
   align-self: center;
 }
 #contact p {
