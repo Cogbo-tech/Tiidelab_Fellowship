@@ -25,14 +25,16 @@
   .sub-hero {
     display: flex;
     flex-direction: row;
+    /* padding: 30px 10px; */
   }
   .sub-hero h2 {
     text-align: left;
-    width: 45%;
-    margin: 0px 10px;
+    width: 40%;
+    font-size: 2rem;
   }
   .sub-hero img {
-    width: 45%;
+    width: 40%;
+    margin-right: 30px;
   }
   #pricing table {
     width: 80%;
@@ -45,7 +47,7 @@
     max-width: 90% auto;
   }
   #about {
-    max-width: 80%;
+    max-width: 80% auto;
   }
   #about p {
     line-height: 1.5;
